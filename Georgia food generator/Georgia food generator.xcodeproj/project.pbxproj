@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C770EAEE277371FB002A69D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770EAED277371FB002A69D9 /* AppDelegate.swift */; };
+		C770EAF0277371FB002A69D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770EAEF277371FB002A69D9 /* SceneDelegate.swift */; };
+		C770EAF2277371FB002A69D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770EAF1277371FB002A69D9 /* ViewController.swift */; };
+		C770EAFA277371FF002A69D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C770EAF8277371FF002A69D9 /* LaunchScreen.storyboard */; };
+		C770EB05277371FF002A69D9 /* Georgia_food_generatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770EB04277371FF002A69D9 /* Georgia_food_generatorTests.swift */; };
+		C770EB10277371FF002A69D9 /* Georgia_food_generatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770EB0F277371FF002A69D9 /* Georgia_food_generatorUITests.swift */; };
+		C770EB23277380A7002A69D9 /* Pattaya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770EB2227737471002A69D9 /* Pattaya-Regular.ttf */; };
+		C770EB252773944C002A69D9 /* Philosopher-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770EB242773944B002A69D9 /* Philosopher-Bold.ttf */; };
+		C770EB2727739458002A69D9 /* Philosopher-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C770EB2627739457002A69D9 /* Philosopher-Regular.ttf */; };
+		C7A281092778DBD1007860ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A281082778DBCF007860ED /* Assets.xcassets */; };
+		C7A2810B2779045F007860ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A2810A2779045F007860ED /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C770EB01277371FF002A69D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C770EAE2277371FB002A69D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C770EAE9277371FB002A69D9;
+			remoteInfo = "Georgia food generator";
+		};
+		C770EB0C277371FF002A69D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C770EAE2277371FB002A69D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C770EAE9277371FB002A69D9;
+			remoteInfo = "Georgia food generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C770EAEA277371FB002A69D9 /* Georgia food generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Georgia food generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C770EAED277371FB002A69D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C770EAEF277371FB002A69D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C770EAF1277371FB002A69D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C770EAF9277371FF002A69D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C770EAFB277371FF002A69D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C770EB00277371FF002A69D9 /* Georgia food generatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Georgia food generatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C770EB04277371FF002A69D9 /* Georgia_food_generatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Georgia_food_generatorTests.swift; sourceTree = "<group>"; };
+		C770EB06277371FF002A69D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C770EB0B277371FF002A69D9 /* Georgia food generatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Georgia food generatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C770EB0F277371FF002A69D9 /* Georgia_food_generatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Georgia_food_generatorUITests.swift; sourceTree = "<group>"; };
+		C770EB11277371FF002A69D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C770EB2227737471002A69D9 /* Pattaya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pattaya-Regular.ttf"; path = "../../../../../Downloads/Pattaya/Pattaya-Regular.ttf"; sourceTree = "<group>"; };
+		C770EB242773944B002A69D9 /* Philosopher-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Philosopher-Bold.ttf"; path = "../../../../../Downloads/Philosopher/Philosopher-Bold.ttf"; sourceTree = "<group>"; };
+		C770EB2627739457002A69D9 /* Philosopher-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Philosopher-Regular.ttf"; path = "../../../../../Downloads/Philosopher/Philosopher-Regular.ttf"; sourceTree = "<group>"; };
+		C7A281082778DBCF007860ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		C7A2810A2779045F007860ED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C770EAE7277371FB002A69D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C770EAFD277371FF002A69D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C770EB08277371FF002A69D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C770EAE1277371FB002A69D9 = {
+			isa = PBXGroup;
+			children = (
+				C770EAEC277371FB002A69D9 /* Georgia food generator */,
+				C770EB03277371FF002A69D9 /* Georgia food generatorTests */,
+				C770EB0E277371FF002A69D9 /* Georgia food generatorUITests */,
+				C770EAEB277371FB002A69D9 /* Products */,
+				FF32248AD2CD011679338B05 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C770EAEB277371FB002A69D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C770EAEA277371FB002A69D9 /* Georgia food generator.app */,
+				C770EB00277371FF002A69D9 /* Georgia food generatorTests.xctest */,
+				C770EB0B277371FF002A69D9 /* Georgia food generatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C770EAEC277371FB002A69D9 /* Georgia food generator */ = {
+			isa = PBXGroup;
+			children = (
+				C770EB2127737435002A69D9 /* costum font */,
+				C770EAED277371FB002A69D9 /* AppDelegate.swift */,
+				C770EAEF277371FB002A69D9 /* SceneDelegate.swift */,
+				C770EAF1277371FB002A69D9 /* ViewController.swift */,
+				C7A2810A2779045F007860ED /* Main.storyboard */,
+				C770EAF8277371FF002A69D9 /* LaunchScreen.storyboard */,
+				C770EAFB277371FF002A69D9 /* Info.plist */,
+				C7A281082778DBCF007860ED /* Assets.xcassets */,
+			);
+			path = "Georgia food generator";
+			sourceTree = "<group>";
+		};
+		C770EB03277371FF002A69D9 /* Georgia food generatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C770EB04277371FF002A69D9 /* Georgia_food_generatorTests.swift */,
+				C770EB06277371FF002A69D9 /* Info.plist */,
+			);
+			path = "Georgia food generatorTests";
+			sourceTree = "<group>";
+		};
+		C770EB0E277371FF002A69D9 /* Georgia food generatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C770EB0F277371FF002A69D9 /* Georgia_food_generatorUITests.swift */,
+				C770EB11277371FF002A69D9 /* Info.plist */,
+			);
+			path = "Georgia food generatorUITests";
+			sourceTree = "<group>";
+		};
+		C770EB2127737435002A69D9 /* costum font */ = {
+			isa = PBXGroup;
+			children = (
+				C770EB2627739457002A69D9 /* Philosopher-Regular.ttf */,
+				C770EB242773944B002A69D9 /* Philosopher-Bold.ttf */,
+				C770EB2227737471002A69D9 /* Pattaya-Regular.ttf */,
+			);
+			path = "costum font";
+			sourceTree = "<group>";
+		};
+		FF32248AD2CD011679338B05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C770EAE9277371FB002A69D9 /* Georgia food generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C770EB14277371FF002A69D9 /* Build configuration list for PBXNativeTarget "Georgia food generator" */;
+			buildPhases = (
+				C770EAE6277371FB002A69D9 /* Sources */,
+				C770EAE7277371FB002A69D9 /* Frameworks */,
+				C770EAE8277371FB002A69D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Georgia food generator";
+			productName = "Georgia food generator";
+			productReference = C770EAEA277371FB002A69D9 /* Georgia food generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C770EAFF277371FF002A69D9 /* Georgia food generatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C770EB17277371FF002A69D9 /* Build configuration list for PBXNativeTarget "Georgia food generatorTests" */;
+			buildPhases = (
+				C770EAFC277371FF002A69D9 /* Sources */,
+				C770EAFD277371FF002A69D9 /* Frameworks */,
+				C770EAFE277371FF002A69D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C770EB02277371FF002A69D9 /* PBXTargetDependency */,
+			);
+			name = "Georgia food generatorTests";
+			productName = "Georgia food generatorTests";
+			productReference = C770EB00277371FF002A69D9 /* Georgia food generatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C770EB0A277371FF002A69D9 /* Georgia food generatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C770EB1A277371FF002A69D9 /* Build configuration list for PBXNativeTarget "Georgia food generatorUITests" */;
+			buildPhases = (
+				C770EB07277371FF002A69D9 /* Sources */,
+				C770EB08277371FF002A69D9 /* Frameworks */,
+				C770EB09277371FF002A69D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C770EB0D277371FF002A69D9 /* PBXTargetDependency */,
+			);
+			name = "Georgia food generatorUITests";
+			productName = "Georgia food generatorUITests";
+			productReference = C770EB0B277371FF002A69D9 /* Georgia food generatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C770EAE2277371FB002A69D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Gai;
+				TargetAttributes = {
+					C770EAE9277371FB002A69D9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C770EAFF277371FF002A69D9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C770EAE9277371FB002A69D9;
+					};
+					C770EB0A277371FF002A69D9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C770EAE9277371FB002A69D9;
+					};
+				};
+			};
+			buildConfigurationList = C770EAE5277371FB002A69D9 /* Build configuration list for PBXProject "Georgia food generator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C770EAE1277371FB002A69D9;
+			productRefGroup = C770EAEB277371FB002A69D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C770EAE9277371FB002A69D9 /* Georgia food generator */,
+				C770EAFF277371FF002A69D9 /* Georgia food generatorTests */,
+				C770EB0A277371FF002A69D9 /* Georgia food generatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C770EAE8277371FB002A69D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C770EAFA277371FF002A69D9 /* LaunchScreen.storyboard in Resources */,
+				C770EB23277380A7002A69D9 /* Pattaya-Regular.ttf in Resources */,
+				C770EB2727739458002A69D9 /* Philosopher-Regular.ttf in Resources */,
+				C7A2810B2779045F007860ED /* Main.storyboard in Resources */,
+				C770EB252773944C002A69D9 /* Philosopher-Bold.ttf in Resources */,
+				C7A281092778DBD1007860ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C770EAFE277371FF002A69D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C770EB09277371FF002A69D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C770EAE6277371FB002A69D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C770EAF2277371FB002A69D9 /* ViewController.swift in Sources */,
+				C770EAEE277371FB002A69D9 /* AppDelegate.swift in Sources */,
+				C770EAF0277371FB002A69D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C770EAFC277371FF002A69D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C770EB05277371FF002A69D9 /* Georgia_food_generatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C770EB07277371FF002A69D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C770EB10277371FF002A69D9 /* Georgia_food_generatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C770EB02277371FF002A69D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C770EAE9277371FB002A69D9 /* Georgia food generator */;
+			targetProxy = C770EB01277371FF002A69D9 /* PBXContainerItemProxy */;
+		};
+		C770EB0D277371FF002A69D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C770EAE9277371FB002A69D9 /* Georgia food generator */;
+			targetProxy = C770EB0C277371FF002A69D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C770EAF8277371FF002A69D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C770EAF9277371FF002A69D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C770EB12277371FF002A69D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C770EB13277371FF002A69D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C770EB15277371FF002A69D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Georgia food generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.GAI.Georgia-food-generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C770EB16277371FF002A69D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Georgia food generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.GAI.Georgia-food-generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C770EB18277371FF002A69D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Georgia food generatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.GAI.Georgia-food-generatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Georgia food generator.app/Georgia food generator";
+			};
+			name = Debug;
+		};
+		C770EB19277371FF002A69D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Georgia food generatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.GAI.Georgia-food-generatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Georgia food generator.app/Georgia food generator";
+			};
+			name = Release;
+		};
+		C770EB1B277371FF002A69D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Georgia food generatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.GAI.Georgia-food-generatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Georgia food generator";
+			};
+			name = Debug;
+		};
+		C770EB1C277371FF002A69D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Georgia food generatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.GAI.Georgia-food-generatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Georgia food generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C770EAE5277371FB002A69D9 /* Build configuration list for PBXProject "Georgia food generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C770EB12277371FF002A69D9 /* Debug */,
+				C770EB13277371FF002A69D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C770EB14277371FF002A69D9 /* Build configuration list for PBXNativeTarget "Georgia food generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C770EB15277371FF002A69D9 /* Debug */,
+				C770EB16277371FF002A69D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C770EB17277371FF002A69D9 /* Build configuration list for PBXNativeTarget "Georgia food generatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C770EB18277371FF002A69D9 /* Debug */,
+				C770EB19277371FF002A69D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C770EB1A277371FF002A69D9 /* Build configuration list for PBXNativeTarget "Georgia food generatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C770EB1B277371FF002A69D9 /* Debug */,
+				C770EB1C277371FF002A69D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C770EAE2277371FB002A69D9 /* Project object */;
+}
